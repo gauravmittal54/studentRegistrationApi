@@ -44,27 +44,19 @@ The API will be available at http://localhost:3000 by default.
 Use API endpoints to manage student records. Refer to the Endpoints section for detailed information on available routes.
 
 ## Endpoints
-POST /students: Create a new student record.
-
-GET /students: Retrieve a list of all students.
-
-GET /student/id/:id: Fetch student details by ID.
-
-GET /student/name/:name: Fetch student details by name.
-
-PATCH /students/id/:id: Update student details by ID.
-
-DELETE /student/id/:id: Delete a student record by ID.
+- POST /students: Create a new student record.
+- GET /students: Retrieve a list of all students.
+- GET /student/id/:id: Fetch student details by ID.
+- GET /student/name/:name: Fetch student details by name.
+- PATCH /students/id/:id: Update student details by ID.
+- DELETE /student/id/:id: Delete a student record by ID.
 
 
 ## Dependencies
-Express.js: Web framework for building the API.
-
-Mongoose: MongoDB object modeling for managing data.
-
-Validator: Library for data validation and sanitization.
-
-Nodemon (dev dependency): Automatically restarts the server during development.
+- Express.js: Web framework for building the API.
+- Mongoose: MongoDB object modeling for managing data.
+- Validator: Library for data validation and sanitization.
+- Nodemon (dev dependency): Automatically restarts the server during development.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
